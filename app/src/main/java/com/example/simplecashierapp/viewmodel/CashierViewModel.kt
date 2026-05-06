@@ -9,7 +9,7 @@ import com.example.simplecashierapp.model.CartItem
 import com.example.simplecashierapp.model.CashierUiState
 import com.example.simplecashierapp.model.Product
 
-class CashierViewModel : ViewModel() {
+class ZCashierViewModel : ViewModel() {
 
     var uiState by mutableStateOf(
         CashierUiState(products = DummyProductData.products)
